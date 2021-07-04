@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import Nav from '../Nav/Nav';
+import { userContext } from '../application/provider';
 import './Header.css';
 
 class Header extends Component{
     render(){
         return(
-            <div>
-                <h1>Cabecera</h1>
-            </div>
+            <header className="Header">
+                <userContext.Consumer>
+                {({user}) =>
+                    <h1>Cabecera {user.name}</h1> 
+                }
+                </userContext.Consumer>
+                <Nav/>
+            </header>
         );
     }
 }
