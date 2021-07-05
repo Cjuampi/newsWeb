@@ -1,0 +1,6 @@
+html, body, #app, #app>div {
+  height: 100%;
+  width:100%;
+  background-color: cadetblue;
+  margin: 0px;
+}
