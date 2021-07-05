@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { userContext } from '../../components/application/provider'
+import './Home.css'
 class Home extends Component {
     constructor (props) {
         super(props);
@@ -16,7 +17,7 @@ class Home extends Component {
 
     render(){
         return(
-            <div>
+            <div className="mainHome">
                 <form onSubmit={this.handleSubmit}>
                     <label>Usuario:</label>
                     <input type="text" name="user" onChange={this.handleChange}/>

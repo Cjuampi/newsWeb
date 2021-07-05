@@ -1,0 +1,17 @@
+.contenedor{
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+}
+
+.newsImg{
+    width: 100%;
+}
+
+img{
+    width: 300px;
+}
+
+.newsBox{
+    margin-bottom: 20px;
+}

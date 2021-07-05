@@ -7,12 +7,17 @@ class Header extends Component{
     render(){
         return(
             <header className="Header">
-                <userContext.Consumer>
-                {({user}) =>
-                    <h1>Cabecera {user.name}</h1> 
-                }
-                </userContext.Consumer>
-                <Nav/>
+                <div className="titleH1">
+                    <h1>Noticias</h1> 
+                    <userContext.Consumer>
+                    {({user}) =>
+                        <h3>{user.name}</h3> 
+                    }
+                    </userContext.Consumer>
+                </div>
+                <div className="navClassHeader">
+                    <Nav/>
+                </div>
             </header>
         );
     }

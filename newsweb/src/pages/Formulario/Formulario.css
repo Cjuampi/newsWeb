@@ -1,0 +1,12 @@
+.sectionForm{
+    width: 100%;
+    display: flex;
+
+    width: 300px;
+}
+form{
+    width: 260px;
+}
+form > input{
+    width: 80%;
+}

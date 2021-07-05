@@ -1,0 +1,25 @@
+.Header{
+    width: 100vw;
+    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titleH1{
+    height: 90px;
+}
+.navClassHeader{
+    width: 100%;
+    display: flex;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
